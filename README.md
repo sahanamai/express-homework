@@ -13,6 +13,7 @@ node server.js
 * express.js
 ## Links
 Github repo URL: https://github.com/sahanamai/express-homework
+Heroku Deploy link: https://note12345.herokuapp.com/
 
 ## Screenshot
 ![1](https://user-images.githubusercontent.com/41078587/152275424-b06ba2a6-a8d7-4ac3-819b-5e4487f7be7b.png)
