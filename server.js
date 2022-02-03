@@ -66,6 +66,7 @@ app.delete('/api/notes/:id', (req, res) => {
     var filterNotes = db_json.filter((x) => x.id!= req.params.id)
     console.log(filterNotes)
     db_json = filterNotes;
+    //rewrite to db.json file
     fs.writeFile('./db/db.json', JSON.stringify(filterNotes), (err) =>
             err ? console.log(err) : console.log('response written to db.json file'))
         res.json(`${req.method} request received ${newNote.id}`);
